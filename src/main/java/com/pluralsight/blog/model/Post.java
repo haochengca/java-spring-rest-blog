@@ -80,7 +80,7 @@ public class Post {
             return false;
         Post otherPost = (Post)obj;
         return this.title.equals(otherPost.getTitle()) &&
-               this.body.equals(otherPost.getBody());
+                this.body.equals(otherPost.getBody());
     }
 
     public Author getAuthor() {
